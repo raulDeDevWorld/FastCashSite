@@ -27,7 +27,7 @@ export function Header() {
             FastCash
           </span>
         </motion.div>
-        <div className="flex items-center gap-4">
+        <div className=" items-center gap-4 hidden md:flex">
           <StoreButton />
           {/* <motion.button 
             className="bg-white/10 backdrop-blur-md text-white px-6 py-2 rounded-full font-semibold hover:bg-white/20 transition-colors border border-white/20"
